@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B00AAFF26C4015F00D1F88D /* NlleAnnonce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00AAFE26C4015F00D1F88D /* NlleAnnonce.swift */; };
+		1B0BDDA426BAA54000C1EDE7 /* Annonce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0BDDA326BAA54000C1EDE7 /* Annonce.swift */; };
+		1B31CBE126C2623E00B722B0 /* MdPretrouve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B31CBE026C2623E00B722B0 /* MdPretrouve.swift */; };
+		1B31CBE326C2633200B722B0 /* MdPrecup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B31CBE226C2633200B722B0 /* MdPrecup.swift */; };
+		1B31CBE526C27FEF00B722B0 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B31CBE426C27FEF00B722B0 /* Variables.swift */; };
+		1B41E33826C18F4D0005232E /* Connexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B41E33726C18F4D0005232E /* Connexion.swift */; };
+		1B41E33A26C18F620005232E /* Inscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B41E33926C18F620005232E /* Inscription.swift */; };
+		1B41E33C26C18F750005232E /* MdPoublie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B41E33B26C18F750005232E /* MdPoublie.swift */; };
+		1B41E33E26C18F8E0005232E /* SignalerUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B41E33D26C18F8E0005232E /* SignalerUser.swift */; };
+		1B41E34226C191690005232E /* Chargement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B41E34126C191690005232E /* Chargement.swift */; };
+		1B75F99D26BD6BDB0058F186 /* myProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B75F99C26BD6BDB0058F186 /* myProfile.swift */; };
+		1B75F99F26BD89B70058F186 /* Conv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B75F99E26BD89B70058F186 /* Conv.swift */; };
+		1B85967126B966670094C5F4 /* Messagerie_Com_n_ShareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85967026B966670094C5F4 /* Messagerie_Com_n_ShareApp.swift */; };
+		1B85967326B966670094C5F4 /* Messagerie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85967226B966670094C5F4 /* Messagerie.swift */; };
+		1B85967526B966680094C5F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B85967426B966680094C5F4 /* Assets.xcassets */; };
+		1B85967826B966680094C5F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B85967726B966680094C5F4 /* Preview Assets.xcassets */; };
+		1B87DCED26C116A6005A1C40 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87DCEC26C116A5005A1C40 /* Settings.swift */; };
+		1B87DCEF26C11972005A1C40 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87DCEE26C11972005A1C40 /* Home.swift */; };
+		1B87DCF126C11996005A1C40 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87DCF026C11996005A1C40 /* Search.swift */; };
+		1B87DCF326C11A47005A1C40 /* ExtendeSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87DCF226C11A47005A1C40 /* ExtendeSearch.swift */; };
+		1B87DCF526C1530C005A1C40 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87DCF426C1530C005A1C40 /* Event.swift */; };
+		1B87DCF926C1631F005A1C40 /* Favoris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87DCF826C1631F005A1C40 /* Favoris.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B00AAFE26C4015F00D1F88D /* NlleAnnonce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NlleAnnonce.swift; sourceTree = "<group>"; };
+		1B0BDDA326BAA54000C1EDE7 /* Annonce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annonce.swift; sourceTree = "<group>"; };
+		1B31CBE026C2623E00B722B0 /* MdPretrouve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MdPretrouve.swift; sourceTree = "<group>"; };
+		1B31CBE226C2633200B722B0 /* MdPrecup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MdPrecup.swift; sourceTree = "<group>"; };
+		1B31CBE426C27FEF00B722B0 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+		1B41E33726C18F4D0005232E /* Connexion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connexion.swift; sourceTree = "<group>"; };
+		1B41E33926C18F620005232E /* Inscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inscription.swift; sourceTree = "<group>"; };
+		1B41E33B26C18F750005232E /* MdPoublie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MdPoublie.swift; sourceTree = "<group>"; };
+		1B41E33D26C18F8E0005232E /* SignalerUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalerUser.swift; sourceTree = "<group>"; };
+		1B41E34126C191690005232E /* Chargement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chargement.swift; sourceTree = "<group>"; };
+		1B75F99C26BD6BDB0058F186 /* myProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myProfile.swift; sourceTree = "<group>"; };
+		1B75F99E26BD89B70058F186 /* Conv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conv.swift; sourceTree = "<group>"; };
+		1B85966D26B966670094C5F4 /* Messagerie Com'n Share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messagerie Com'n Share.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B85967026B966670094C5F4 /* Messagerie_Com_n_ShareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messagerie_Com_n_ShareApp.swift; sourceTree = "<group>"; };
+		1B85967226B966670094C5F4 /* Messagerie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messagerie.swift; sourceTree = "<group>"; };
+		1B85967426B966680094C5F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B85967726B966680094C5F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B85967926B966680094C5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B87DCEC26C116A5005A1C40 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		1B87DCEE26C11972005A1C40 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1B87DCF026C11996005A1C40 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		1B87DCF226C11A47005A1C40 /* ExtendeSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendeSearch.swift; sourceTree = "<group>"; };
+		1B87DCF426C1530C005A1C40 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		1B87DCF826C1631F005A1C40 /* Favoris.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favoris.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B85966A26B966670094C5F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B85966426B966670094C5F4 = {
+			isa = PBXGroup;
+			children = (
+				1B85966F26B966670094C5F4 /* Messagerie Com'n Share */,
+				1B85966E26B966670094C5F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B85966E26B966670094C5F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B85966D26B966670094C5F4 /* Messagerie Com'n Share.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B85966F26B966670094C5F4 /* Messagerie Com'n Share */ = {
+			isa = PBXGroup;
+			children = (
+				1B85967026B966670094C5F4 /* Messagerie_Com_n_ShareApp.swift */,
+				1B85967226B966670094C5F4 /* Messagerie.swift */,
+				1B75F99C26BD6BDB0058F186 /* myProfile.swift */,
+				1B87DCEE26C11972005A1C40 /* Home.swift */,
+				1B41E33726C18F4D0005232E /* Connexion.swift */,
+				1B87DCEC26C116A5005A1C40 /* Settings.swift */,
+				1B87DCF826C1631F005A1C40 /* Favoris.swift */,
+				1B87DCF226C11A47005A1C40 /* ExtendeSearch.swift */,
+				1B41E33926C18F620005232E /* Inscription.swift */,
+				1B00AAFE26C4015F00D1F88D /* NlleAnnonce.swift */,
+				1B87DCF426C1530C005A1C40 /* Event.swift */,
+				1B41E33B26C18F750005232E /* MdPoublie.swift */,
+				1B31CBE426C27FEF00B722B0 /* Variables.swift */,
+				1B75F99E26BD89B70058F186 /* Conv.swift */,
+				1B31CBE226C2633200B722B0 /* MdPrecup.swift */,
+				1B41E34126C191690005232E /* Chargement.swift */,
+				1B31CBE026C2623E00B722B0 /* MdPretrouve.swift */,
+				1B41E33D26C18F8E0005232E /* SignalerUser.swift */,
+				1B87DCF026C11996005A1C40 /* Search.swift */,
+				1B0BDDA326BAA54000C1EDE7 /* Annonce.swift */,
+				1B85967426B966680094C5F4 /* Assets.xcassets */,
+				1B85967926B966680094C5F4 /* Info.plist */,
+				1B85967626B966680094C5F4 /* Preview Content */,
+			);
+			path = "Messagerie Com'n Share";
+			sourceTree = "<group>";
+		};
+		1B85967626B966680094C5F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B85967726B966680094C5F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B85966C26B966670094C5F4 /* Messagerie Com'n Share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B85967C26B966680094C5F4 /* Build configuration list for PBXNativeTarget "Messagerie Com'n Share" */;
+			buildPhases = (
+				1B85966926B966670094C5F4 /* Sources */,
+				1B85966A26B966670094C5F4 /* Frameworks */,
+				1B85966B26B966670094C5F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Messagerie Com'n Share";
+			productName = "Messagerie Com'n Share";
+			productReference = 1B85966D26B966670094C5F4 /* Messagerie Com'n Share.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B85966526B966670094C5F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1B85966C26B966670094C5F4 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 1B85966826B966670094C5F4 /* Build configuration list for PBXProject "Messagerie Com'n Share" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B85966426B966670094C5F4;
+			productRefGroup = 1B85966E26B966670094C5F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B85966C26B966670094C5F4 /* Messagerie Com'n Share */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B85966B26B966670094C5F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B85967826B966680094C5F4 /* Preview Assets.xcassets in Resources */,
+				1B85967526B966680094C5F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B85966926B966670094C5F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B87DCF926C1631F005A1C40 /* Favoris.swift in Sources */,
+				1B87DCED26C116A6005A1C40 /* Settings.swift in Sources */,
+				1B0BDDA426BAA54000C1EDE7 /* Annonce.swift in Sources */,
+				1B87DCF326C11A47005A1C40 /* ExtendeSearch.swift in Sources */,
+				1B31CBE126C2623E00B722B0 /* MdPretrouve.swift in Sources */,
+				1B31CBE326C2633200B722B0 /* MdPrecup.swift in Sources */,
+				1B75F99D26BD6BDB0058F186 /* myProfile.swift in Sources */,
+				1B87DCF526C1530C005A1C40 /* Event.swift in Sources */,
+				1B85967326B966670094C5F4 /* Messagerie.swift in Sources */,
+				1B41E33826C18F4D0005232E /* Connexion.swift in Sources */,
+				1B75F99F26BD89B70058F186 /* Conv.swift in Sources */,
+				1B31CBE526C27FEF00B722B0 /* Variables.swift in Sources */,
+				1B41E34226C191690005232E /* Chargement.swift in Sources */,
+				1B41E33A26C18F620005232E /* Inscription.swift in Sources */,
+				1B87DCF126C11996005A1C40 /* Search.swift in Sources */,
+				1B41E33C26C18F750005232E /* MdPoublie.swift in Sources */,
+				1B85967126B966670094C5F4 /* Messagerie_Com_n_ShareApp.swift in Sources */,
+				1B00AAFF26C4015F00D1F88D /* NlleAnnonce.swift in Sources */,
+				1B87DCEF26C11972005A1C40 /* Home.swift in Sources */,
+				1B41E33E26C18F8E0005232E /* SignalerUser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B85967A26B966680094C5F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B85967B26B966680094C5F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B85967D26B966680094C5F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Messagerie Com'n Share/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Messagerie Com'n Share/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cnS.Messagerie-Com-n-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B85967E26B966680094C5F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Messagerie Com'n Share/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Messagerie Com'n Share/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cnS.Messagerie-Com-n-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B85966826B966670094C5F4 /* Build configuration list for PBXProject "Messagerie Com'n Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B85967A26B966680094C5F4 /* Debug */,
+				1B85967B26B966680094C5F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B85967C26B966680094C5F4 /* Build configuration list for PBXNativeTarget "Messagerie Com'n Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B85967D26B966680094C5F4 /* Debug */,
+				1B85967E26B966680094C5F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B85966526B966670094C5F4 /* Project object */;
+}
